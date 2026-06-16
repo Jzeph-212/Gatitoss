@@ -5,224 +5,403 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>🐾 Gatitos en Adopción · Bolivia</title>
   <link rel="stylesheet" href="style.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,400&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
 </head>
 <body>
 
-  <!-- ░░ HERO ░░ -->
-  <header class="hero">
-    <div class="hero-orbs">
-      <div class="orb orb1"></div>
-      <div class="orb orb2"></div>
-      <div class="orb orb3"></div>
+<!-- Stickers flotantes de fondo (decoración global) -->
+<div class="bg-stickers" aria-hidden="true">
+  <span class="bs" style="--x:5%;  --y:12%; --s:.9; --r:-15deg">🐾</span>
+  <span class="bs" style="--x:90%; --y:8%;  --s:.7; --r:20deg">😺</span>
+  <span class="bs" style="--x:18%; --y:38%; --s:.6; --r:10deg">🐱</span>
+  <span class="bs" style="--x:78%; --y:32%; --s:.8; --r:-8deg">🐾</span>
+  <span class="bs" style="--x:45%; --y:55%; --s:.5; --r:25deg">✨</span>
+  <span class="bs" style="--x:92%; --y:60%; --s:.7; --r:-20deg">🐾</span>
+  <span class="bs" style="--x:8%;  --y:70%; --s:.6; --r:12deg">😸</span>
+  <span class="bs" style="--x:60%; --y:78%; --s:.8; --r:-5deg">🐾</span>
+  <span class="bs" style="--x:30%; --y:88%; --s:.6; --r:18deg">🐱</span>
+  <span class="bs" style="--x:85%; --y:90%; --s:.7; --r:-12deg">✨</span>
+</div>
+
+
+<!-- ╔══════════════════════════════════╗
+     ║            HERO                  ║
+     ╚══════════════════════════════════╝ -->
+<header class="hero">
+  <!-- Burbujas doradas y rosas -->
+  <div class="hero-bubbles" aria-hidden="true">
+    <div class="bubble bu1"></div>
+    <div class="bubble bu2"></div>
+    <div class="bubble bu3"></div>
+    <div class="bubble bu4"></div>
+  </div>
+
+  <!-- Stickers hero -->
+  <div class="hero-stickers" aria-hidden="true">
+    <span class="hs hs1">🐾</span>
+    <span class="hs hs2">😺</span>
+    <span class="hs hs3">🐾</span>
+    <span class="hs hs4">🌸</span>
+    <span class="hs hs5">🐱</span>
+    <span class="hs hs6">💛</span>
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-badge">🇧🇴 Santa Cruz de la Sierra · Bolivia</div>
+    <h1 class="hero-title">
+      Dale un hogar<br/>
+      a quien más<br/>
+      <span class="hero-accent">lo merece</span> 🐾
+    </h1>
+    <p class="hero-sub">Tres gatitos adorables buscan una familia<br/>llena de amor. ¿Los conoces?</p>
+    <div class="hero-btns">
+      <a href="#gatitos" class="btn-gold">Ver gatitos ↓</a>
+      <a href="https://wa.me/59168912447?text=¡Hola!%20Vi%20los%20gatitos%20en%20adopción%20y%20quiero%20información%20🐱"
+         target="_blank" class="btn-outline-white">💬 WhatsApp</a>
     </div>
-    <div class="hero-content">
-      <div class="hero-label"></div>
-      <h1>Adopta un<br/><span class="hero-highlight">gatito</span> hoy</h1>
-      <p class="hero-p">Tres pequeños felinos buscan un hogar lleno de amor.<br/>Son sanos, juguetones y listos para ser parte de tu familia.</p>
-      <div class="hero-actions">
-        <a href="#gatitos" class="btn-primary">Ver los gatitos ↓</a>
-        <a href="https://wa.me/59168912447?text=¡Hola!%20Vi%20los%20gatitos%20en%20adopción%20y%20quiero%20más%20información%20🐱" class="btn-ghost" target="_blank">💬 WhatsApp</a>
+  </div>
+
+  <!-- Franja de stickers en la parte baja del hero -->
+  <div class="hero-strip" aria-hidden="true">
+    <span>🐾</span><span>🐱</span><span>🐾</span><span>😺</span>
+    <span>🐾</span><span>🌸</span><span>🐾</span><span>🐱</span>
+    <span>🐾</span><span>💛</span><span>🐾</span><span>😸</span>
+  </div>
+</header>
+
+
+<!-- ╔══════════════════════════════════╗
+     ║         SECCIÓN GATITOS          ║
+     ╚══════════════════════════════════╝ -->
+<section class="cats-section" id="gatitos">
+
+  <div class="section-title">
+    <div class="paw-row" aria-hidden="true">🐾 🐾 🐾</div>
+    <span class="eyebrow-tag">Camada disponible</span>
+    <h2>Conoce a los tres</h2>
+    <p>Sanos, juguetones y con mucho amor para dar</p>
+  </div>
+
+  <div class="cards-grid">
+
+    <!-- ═══════════════════════════════
+         TARJETA 1 · EL MACHITO
+         ═══════════════════════════════ -->
+    <article class="cat-card male-card">
+      <div class="card-ribbon ribbon-gold">♂ Machito</div>
+
+      <!-- Stickers de esquina -->
+      <div class="card-sticker cs-tl">😺</div>
+      <div class="card-sticker cs-tr">🐾</div>
+
+      <!--
+      ┌──────────────────────────────────────┐
+      │   GALERÍA MACHITO — 3 FOTOS          │
+      │                                      │
+      │  FOTO 1: src="gatito1.jpeg"  ← real  │
+      │  FOTO 2: reemplaza el bloque         │
+      │    <div class="no-photo ...">        │
+      │    por <img src="TU_FOTO.jpg"/>      │
+      │  FOTO 3: igual que foto 2            │
+      └──────────────────────────────────────┘
+      -->
+      <div class="gallery" id="gal1">
+        <!-- FOTO 1 DEL MACHITO -->
+        <div class="gslide active">
+          <img src="Gris1.jpeg" alt="Machito gris - foto 1"/>
+        </div>
+        <!-- FOTO 2 DEL MACHITO → reemplaza por <img src="machito_foto2.jpg"/> -->
+        <div class="gslide">
+          <div class="no-photo np-gold">
+            <span>🐾</span>
+            <p>Foto 2 del machito</p>
+            <small>Pon aquí:<br/><code>&lt;img src="machito_foto2.jpg"/&gt;</code></small>
+          </div>
+        </div>
+        <!-- FOTO 3 DEL MACHITO → reemplaza por <img src="machito_foto3.jpg"/> -->
+        <div class="gslide">
+          <div class="no-photo np-gold">
+            <span>😺</span>
+            <p>Foto 3 del machito</p>
+            <small>Pon aquí:<br/><code>&lt;img src="machito_foto3.jpg"/&gt;</code></small>
+          </div>
+        </div>
+        <button class="arr arr-l" onclick="goPrev('gal1')">‹</button>
+        <button class="arr arr-r" onclick="goNext('gal1')">›</button>
+        <div class="dots" id="dots-gal1">
+          <span class="dot active" onclick="goTo('gal1',0)"></span>
+          <span class="dot"        onclick="goTo('gal1',1)"></span>
+          <span class="dot"        onclick="goTo('gal1',2)"></span>
+        </div>
+        <!-- Contador de foto -->
+        <div class="photo-counter" id="counter-gal1">1 / 3</div>
       </div>
+
+      <div class="card-body">
+        <div class="cat-header">
+          <h3>Gris</h3>
+          <span class="cat-emoji">🩶</span>
+        </div>
+        <p class="cat-desc">Pelaje gris perla y ojos azules que enamoran. Curioso, juguetón y con mucha personalidad. ¡El único machito de la camada!</p>
+        <div class="traits">
+          <span>🩶 Gris</span>
+          <span>💙 Ojos azules</span>
+          <span>⚡ Juguetón</span>
+        </div>
+        <!-- Caja fucsia decorativa -->
+        <div class="fuchsia-box">
+          <span>🐾</span> ¡Busca un hogar amoroso!
+        </div>
+        <a class="btn-wa-card"
+           href="https://wa.me/59168912447?text=¡Hola!%20Me%20interesa%20adoptar%20al%20Caballero%20Gris%20(el%20machito)%20🐱"
+           target="_blank">💬 Quiero adoptarlo</a>
+      </div>
+    </article>
+
+
+    <!-- ═══════════════════════════════
+         TARJETA 2 · HEMBRITA 1
+         ═══════════════════════════════ -->
+    <article class="cat-card female1-card">
+      <div class="card-ribbon ribbon-pink">♀ Hembrita</div>
+
+      <div class="card-sticker cs-tl">🌸</div>
+      <div class="card-sticker cs-tr">🐾</div>
+
+      <!--
+      ┌──────────────────────────────────────┐
+      │   GALERÍA HEMBRITA 1 — 3 FOTOS       │
+      │                                      │
+      │  FOTO 1: reemplaza el bloque         │
+      │    <div class="no-photo ...">        │
+      │    por <img src="hembrita1_f1.jpg"/> │
+      │  FOTO 2 y 3: igual                   │
+      └──────────────────────────────────────┘
+      -->
+      <div class="gallery" id="gal2">
+        <!-- FOTO 1 HEMBRITA 1 -->
+        <div class="gslide active">
+          <img src="Karey1.jpeg" alt="Karey - foto 1"/>
+        </div>
+        <!-- FOTO 2 HEMBRITA 1 → reemplaza por <img src="hembrita1_foto2.jpg"/> -->
+        <div class="gslide">
+          <div class="no-photo np-pink">
+            <span>🐾</span>
+            <p>Foto 2 de la hembrita</p>
+            <small>Pon aquí:<br/><code>&lt;img src="hembrita1_foto2.jpg"/&gt;</code></small>
+          </div>
+        </div>
+        <!-- FOTO 3 HEMBRITA 1 → reemplaza por <img src="hembrita1_foto3.jpg"/> -->
+        <div class="gslide">
+          <div class="no-photo np-pink">
+            <span>😸</span>
+            <p>Foto 3 de la hembrita</p>
+            <small>Pon aquí:<br/><code>&lt;img src="hembrita1_foto3.jpg"/&gt;</code></small>
+          </div>
+        </div>
+        <button class="arr arr-l" onclick="goPrev('gal2')">‹</button>
+        <button class="arr arr-r" onclick="goNext('gal2')">›</button>
+        <div class="dots" id="dots-gal2">
+          <span class="dot active" onclick="goTo('gal2',0)"></span>
+          <span class="dot"        onclick="goTo('gal2',1)"></span>
+          <span class="dot"        onclick="goTo('gal2',2)"></span>
+        </div>
+        <div class="photo-counter" id="counter-gal2">1 / 3</div>
+      </div>
+
+      <div class="card-body">
+        <div class="cat-header">
+          <h3>Karey</h3>
+          <span class="cat-emoji">🌸</span>
+        </div>
+        <p class="cat-desc">Una gatita carey de colores únicos, dulce y muy cariñosa. Le encanta explorar cada rincón y conquistar corazones. ¡Perfecta para un hogar lleno de mimos!</p>
+        <div class="traits">
+          <span>🌸 Hembra</span>
+          <span>🐈 Carey</span>
+          <span>🔍 Curiosa</span>
+        </div>
+        <div class="fuchsia-box">
+          <span>🐱</span> ¡Lista para ser tu compañera!
+        </div>
+        <a class="btn-wa-card"
+           href="https://wa.me/59168912447?text=¡Hola!%20Me%20interesa%20adoptar%20a%20Karey%20🐱"
+           target="_blank">💬 Quiero adoptarla</a>
+      </div>
+    </article>
+
+
+    <!-- ═══════════════════════════════
+         TARJETA 3 · HEMBRITA 2
+         ═══════════════════════════════ -->
+    <article class="cat-card female2-card">
+      <div class="card-ribbon ribbon-pink">♀ Hembrita</div>
+
+      <div class="card-sticker cs-tl">✨</div>
+      <div class="card-sticker cs-tr">🐾</div>
+
+      <!--
+      ┌──────────────────────────────────────┐
+      │   GALERÍA HEMBRITA 2 — 3 FOTOS       │
+      │                                      │
+      │  FOTO 1: reemplaza el bloque         │
+      │    <div class="no-photo ...">        │
+      │    por <img src="hembrita2_f1.jpg"/> │
+      │  FOTO 2 y 3: igual                   │
+      └──────────────────────────────────────┘
+      -->
+      <div class="gallery" id="gal3">
+        <!-- FOTO 1 HEMBRITA 2 -->
+        <div class="gslide active">
+          <img src="Morochita1.jpeg" alt="Morochita - foto 1"/>
+        </div>
+        <!-- FOTO 2 HEMBRITA 2 → reemplaza por <img src="hembrita2_foto2.jpg"/> -->
+        <div class="gslide">
+          <div class="no-photo np-cream">
+            <span>🐾</span>
+            <p>Foto 2 de la hembrita</p>
+            <small>Pon aquí:<br/><code>&lt;img src="hembrita2_foto2.jpg"/&gt;</code></small>
+          </div>
+        </div>
+        <!-- FOTO 3 HEMBRITA 2 → reemplaza por <img src="hembrita2_foto3.jpg"/> -->
+        <div class="gslide">
+          <div class="no-photo np-cream">
+            <span>😺</span>
+            <p>Foto 3 de la hembrita</p>
+            <small>Pon aquí:<br/><code>&lt;img src="hembrita2_foto3.jpg"/&gt;</code></small>
+          </div>
+        </div>
+        <button class="arr arr-l" onclick="goPrev('gal3')">‹</button>
+        <button class="arr arr-r" onclick="goNext('gal3')">›</button>
+        <div class="dots" id="dots-gal3">
+          <span class="dot active" onclick="goTo('gal3',0)"></span>
+          <span class="dot"        onclick="goTo('gal3',1)"></span>
+          <span class="dot"        onclick="goTo('gal3',2)"></span>
+        </div>
+        <div class="photo-counter" id="counter-gal3">1 / 3</div>
+      </div>
+
+      <div class="card-body">
+        <div class="cat-header">
+          <h3>Morochita</h3>
+          <span class="cat-emoji">😸</span>
+        </div>
+        <p class="cat-desc">Pelaje negro azabache y mirada profunda. Cariñosa, tranquila y siempre lista para acurrucarse. ¡Te robará el corazón con su elegancia!</p>
+        <div class="traits">
+          <span>🖤 Negra</span>
+          <span>🌙 Tranquila</span>
+          <span>💛 Cariñosa</span>
+        </div>
+        <div class="fuchsia-box">
+          <span>😸</span> ¡La más mimosa de todas!
+        </div>
+        <a class="btn-wa-card"
+           href="https://wa.me/59168912447?text=¡Hola!%20Me%20interesa%20adoptar%20a%20Morochita%20🐱"
+           target="_blank">💬 Quiero adoptarla</a>
+      </div>
+    </article>
+
+  </div><!-- /cards-grid -->
+</section>
+
+
+<!-- ╔══════════════════════════════════╗
+     ║     FRANJA DE STICKERS           ║
+     ╚══════════════════════════════════╝ -->
+<div class="sticker-band" aria-hidden="true">
+  <div class="sticker-scroll">
+    <span>🐾</span><span>😺</span><span>🌸</span><span>🐾</span>
+    <span>💛</span><span>🐱</span><span>🐾</span><span>😸</span>
+    <span>🌸</span><span>🐾</span><span>✨</span><span>🐱</span>
+    <!-- duplicado para loop infinito -->
+    <span>🐾</span><span>😺</span><span>🌸</span><span>🐾</span>
+    <span>💛</span><span>🐱</span><span>🐾</span><span>😸</span>
+    <span>🌸</span><span>🐾</span><span>✨</span><span>🐱</span>
+  </div>
+</div>
+
+
+<!-- ╔══════════════════════════════════╗
+     ║       FRANJA INFORMATIVA         ║
+     ╚══════════════════════════════════╝ -->
+<section class="info-strip">
+  <div class="info-inner">
+    <div class="info-item">
+      <div class="info-icon-wrap">🏠</div>
+      <strong>Entrega en SCZ</strong>
+      <p>Coordinamos la entrega en Santa Cruz de la Sierra</p>
     </div>
-    <div class="hero-floating">
-      <span style="--d:0s">🐾</span>
-      <span style="--d:.4s">🐱</span>
-      <span style="--d:.8s">✨</span>
-      <span style="--d:1.2s">🐾</span>
-      <span style="--d:1.6s">💛</span>
+    <div class="info-item">
+      <div class="info-icon-wrap">💚</div>
+      <strong>Adopción responsable</strong>
+      <p>Buscamos familias que los amen toda la vida</p>
     </div>
-  </header>
-
-  <!-- ░░ GATITOS ░░ -->
-  <section class="cats-section" id="gatitos">
-    <div class="section-head">
-      <p class="eyebrow">Camada disponible</p>
-      <h2>Conoce a los tres</h2>
+    <div class="info-item">
+      <div class="info-icon-wrap">🐾</div>
+      <strong>Sanos y activos</strong>
+      <p>Gatitos saludables y llenos de energía</p>
     </div>
+  </div>
+</section>
 
-    <div class="cards-wrap">
 
-      <!-- ── MACHITO ── -->
-      <article class="cat-card">
-        <div class="card-pill male">♂ Machito</div>
+<!-- ╔══════════════════════════════════╗
+     ║         CTA FINAL                ║
+     ╚══════════════════════════════════╝ -->
+<section class="cta-section">
+  <!-- Stickers decorativos CTA -->
+  <span class="cta-sk sk1">🐾</span>
+  <span class="cta-sk sk2">😺</span>
+  <span class="cta-sk sk3">🐾</span>
+  <span class="cta-sk sk4">🌸</span>
 
-        <!-- Galería 2 fotos -->
-        <div class="gallery" id="g1">
-          <div class="gallery-track" id="track1">
-            <div class="gslide active">
-              <img src="gatito1.jpeg" alt="Machito gris foto 1"/>
-            </div>
-            <div class="gslide">
-              <div class="photo-placeholder">
-                <span>📷</span>
-                <p>Segunda foto<br/>próximamente</p>
-              </div>
-            </div>
-          </div>
-          <button class="garrow left"  onclick="slide('track1','g1',-1)">‹</button>
-          <button class="garrow right" onclick="slide('track1','g1', 1)">›</button>
-          <div class="gdots" id="dots1">
-            <span class="dot active" onclick="goTo('track1','g1',0)"></span>
-            <span class="dot"        onclick="goTo('track1','g1',1)"></span>
-          </div>
-        </div>
+  <div class="cta-inner">
+    <div class="cta-cats">😺 🐱 😸</div>
+    <h2>¿Te enamoraste<br/>de alguno? 💛</h2>
+    <p>Escríbenos por WhatsApp y te contamos todo.<br/>Coordinamos la entrega en Santa Cruz, Bolivia.</p>
+    <a class="btn-cta-final"
+       href="https://wa.me/59168912447?text=¡Hola!%20Vi%20los%20gatitos%20en%20adopción%20y%20quiero%20más%20información%20🐱"
+       target="_blank">
+      📲 +591 68912447 · Escríbenos ahora
+    </a>
 
-        <div class="card-body">
-          <h3>El Caballero Gris</h3>
-          <p class="card-desc">Pelaje gris perla y ojos azules que te hipnotizan. Curioso, juguetón y lleno de energía. ¡El único machito de la camada!</p>
-          <div class="tags">
-            <span>🩶 Gris</span>
-            <span>💙 Ojos azules</span>
-            <span>⚡ Juguetón</span>
-          </div>
-          <a class="btn-wa" href="https://wa.me/59168912447?text=¡Hola!%20Me%20interesa%20adoptar%20al%20Caballero%20Gris%20(el%20machito)%20🐱" target="_blank">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-            Más información
-          </a>
-        </div>
-      </article>
-
-      <!-- ── HEMBRITA 1 ── -->
-      <article class="cat-card">
-        <div class="card-pill female">♀ Hembrita</div>
-
-        <div class="gallery" id="g2">
-          <div class="gallery-track" id="track2">
-            <div class="gslide active">
-              <div class="photo-placeholder pink">
-                <span>📷</span>
-                <p>Primera foto<br/>próximamente</p>
-              </div>
-            </div>
-            <div class="gslide">
-              <div class="photo-placeholder pink">
-                <span>📷</span>
-                <p>Segunda foto<br/>próximamente</p>
-              </div>
-            </div>
-          </div>
-          <button class="garrow left"  onclick="slide('track2','g2',-1)">‹</button>
-          <button class="garrow right" onclick="slide('track2','g2', 1)">›</button>
-          <div class="gdots" id="dots2">
-            <span class="dot active" onclick="goTo('track2','g2',0)"></span>
-            <span class="dot"        onclick="goTo('track2','g2',1)"></span>
-          </div>
-        </div>
-
-        <div class="card-body">
-          <h3>La Princesita</h3>
-          <p class="card-desc">Dulce y elegante, esta pequeñita tiene toda la ternura del mundo. Le encanta explorar y hacer las cosas a su manera.</p>
-          <div class="tags">
-            <span>🌸 Hembra</span>
-            <span>🤍 Cariñosa</span>
-            <span>🔍 Curiosa</span>
-          </div>
-          <a class="btn-wa" href="https://wa.me/59168912447?text=¡Hola!%20Me%20interesa%20adoptar%20a%20la%20Princesita%20(hembrita%20%231)%20🐱" target="_blank">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-            Más información
-          </a>
-        </div>
-      </article>
-
-      <!-- ── HEMBRITA 2 ── -->
-      <article class="cat-card">
-        <div class="card-pill female">♀ Hembrita</div>
-
-        <div class="gallery" id="g3">
-          <div class="gallery-track" id="track3">
-            <div class="gslide active">
-              <div class="photo-placeholder purple">
-                <span>📷</span>
-                <p>Primera foto<br/>próximamente</p>
-              </div>
-            </div>
-            <div class="gslide">
-              <div class="photo-placeholder purple">
-                <span>📷</span>
-                <p>Segunda foto<br/>próximamente</p>
-              </div>
-            </div>
-          </div>
-          <button class="garrow left"  onclick="slide('track3','g3',-1)">‹</button>
-          <button class="garrow right" onclick="slide('track3','g3', 1)">›</button>
-          <div class="gdots" id="dots3">
-            <span class="dot active" onclick="goTo('track3','g3',0)"></span>
-            <span class="dot"        onclick="goTo('track3','g3',1)"></span>
-          </div>
-        </div>
-
-        <div class="card-body">
-          <h3>La Traviesa</h3>
-          <p class="card-desc">La más pícara de la camada. Siempre lista para jugar y conquistar cada rincón de la casa. Te llenará de risas todos los días.</p>
-          <div class="tags">
-            <span>🌺 Hembra</span>
-            <span>⚡ Traviesa</span>
-            <span>💛 Alegre</span>
-          </div>
-          <a class="btn-wa" href="https://wa.me/59168912447?text=¡Hola!%20Me%20interesa%20adoptar%20a%20la%20Traviesa%20(hembrita%20%232)%20🐱" target="_blank">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-            Más información
-          </a>
-        </div>
-      </article>
-
-    </div><!-- /cards-wrap -->
-  </section>
-
-  <!-- ░░ FRANJA AMOR ░░ -->
-  <section class="love-strip">
-    <div class="love-inner">
-      <div class="love-item"><span>🏠</span><strong>Entrega en SCZ</strong><p>Coordinamos la entrega en Santa Cruz de la Sierra</p></div>
-      <div class="love-item"><span>💚</span><strong>Adopción responsable</strong><p>Buscamos familias que los quieran de verdad</p></div>
-      <div class="love-item"><span>🐾</span><strong>Sanos y activos</strong><p>Gatitos saludables y llenos de energía</p></div>
+    <!-- Cuadros fucsia decorativos -->
+    <div class="fuchsia-squares" aria-hidden="true">
+      <span>🐾</span>
+      <span>🐱</span>
+      <span>🐾</span>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ░░ CTA FINAL ░░ -->
-  <section class="cta-final">
-    <div class="cta-glow"></div>
-    <div class="cta-content">
-      <p class="eyebrow light">¿Te enamoraste de alguno?</p>
-      <h2>Escríbenos ahora<br/>y separa tu gatito 🐾</h2>
-      <a class="btn-wa-big" href="https://wa.me/59168912447?text=¡Hola!%20Vi%20los%20gatitos%20en%20adopción%20y%20quiero%20más%20información%20🐱" target="_blank">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-        +591 68912447 · WhatsApp
-      </a>
-    </div>
-  </section>
 
-  <footer class="foot">
-    <p>🐾 Gatitos en Adopción · Santa Cruz de la Sierra, Bolivia 🇧🇴</p>
-  </footer>
+<footer class="site-footer">
+  <div class="footer-paws" aria-hidden="true">🐾 🐾 🐾 🐾 🐾</div>
+  <p>🐾 Gatitos en Adopción · Santa Cruz de la Sierra, Bolivia 🇧🇴</p>
+  <p class="footer-small">Hecho con amor para encontrar un hogar para cada gatito ❤️</p>
+</footer>
 
-  <script>
-    // ── Galería simple con flechas y dots ──
-    function getSlides(trackId) {
-      return document.getElementById(trackId).querySelectorAll('.gslide');
-    }
-    function currentIndex(trackId) {
-      const slides = getSlides(trackId);
-      for (let i = 0; i < slides.length; i++) {
-        if (slides[i].classList.contains('active')) return i;
-      }
-      return 0;
-    }
-    function goTo(trackId, galleryId, idx) {
-      const slides = getSlides(trackId);
-      slides.forEach(s => s.classList.remove('active'));
-      slides[idx].classList.add('active');
-      const dots = document.getElementById('dots' + galleryId.slice(1)).querySelectorAll('.dot');
-      dots.forEach(d => d.classList.remove('active'));
-      dots[idx].classList.add('active');
-    }
-    function slide(trackId, galleryId, dir) {
-      const slides = getSlides(trackId);
-      let idx = currentIndex(trackId) + dir;
-      if (idx < 0) idx = slides.length - 1;
-      if (idx >= slides.length) idx = 0;
-      goTo(trackId, galleryId, idx);
-    }
-  </script>
+
+<script>
+  /* ── Galería ── */
+  function getSlides(id) { return document.getElementById(id).querySelectorAll('.gslide'); }
+  function getDots(id)   { return document.getElementById('dots-'+id).querySelectorAll('.dot'); }
+  function currentIdx(id) {
+    const s = getSlides(id);
+    for (let i=0;i<s.length;i++) if(s[i].classList.contains('active')) return i;
+    return 0;
+  }
+  function goTo(id, idx) {
+    const slides = getSlides(id), dots = getDots(id), total = slides.length;
+    slides.forEach(s=>s.classList.remove('active'));
+    dots.forEach(d=>d.classList.remove('active'));
+    slides[idx].classList.add('active');
+    dots[idx].classList.add('active');
+    const counter = document.getElementById('counter-'+id);
+    if(counter) counter.textContent = (idx+1) + ' / ' + total;
+  }
+  function goNext(id) { const s=getSlides(id); goTo(id,(currentIdx(id)+1)%s.length); }
+  function goPrev(id) { const s=getSlides(id); goTo(id,(currentIdx(id)-1+s.length)%s.length); }
+</script>
 </body>
 </html>
+
